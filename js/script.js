@@ -70,7 +70,7 @@ const App=function(){
 let ShowAlert=()=>{
      alert('Функция вызвана');
     }
-
+    
 window.addEventListener('load',()=>{
     const app=new App();
     let tag=app.create('div');
