@@ -76,7 +76,7 @@ window.addEventListener('load',()=>{
     let tag=app.create('div');
     app.attr(tag,'id','newElement');
     app.html(tag,'<p>Новый абзац</p>');
-    console.log(app.search(tag)); 
+    let search=app.search(tag); 
     app.addClass(tag,'red');
     app.removeClass(tag,'red');
     app.toggleClass(tag,'red');
